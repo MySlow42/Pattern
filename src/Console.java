@@ -1,5 +1,6 @@
-public class Console {
+import org.w3c.dom.ls.LSOutput;
 
+public class Console {
     //TODO Apparence de sout pour que le meneur de jeu entre les numéros + indication de lettre quand veut checker, + indication de lettre quand erreur a refaire?
 
     //TODO selon ce qui est entré dans la console:
