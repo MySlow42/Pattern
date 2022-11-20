@@ -4,6 +4,9 @@ public class Carte {
     private String id;
     private int[][] numeros;
 
+    public Carte() {
+    }
+
     public Carte(String id, int[][] numeros) {
         this.id = id;
         this.numeros = numeros;
