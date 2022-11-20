@@ -1,9 +1,12 @@
 package business;
 
+import java.util.HashMap;
+
 public class Carte {
     private String id;
     private int[][] numeros;
 
+    public Carte(){}
     public Carte(String id, int[][] numeros) {
         this.id = id;
         this.numeros = numeros;
@@ -23,9 +26,5 @@ public class Carte {
 
     public void setNumeros(int[][] numeros) {
         this.numeros = numeros;
-    }
-    public int[][] getMatrix (String id){
-
-        return new int[0][];
     }
 }
