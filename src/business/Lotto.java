@@ -2,7 +2,6 @@ package business;
 // initialise cartes
 //  collections de cartes de type map
 // likedList pour les numSortis
-// test ici et là
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +14,10 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 public class Lotto {
     private String filename = "Cartes.json";
-    public void initCartes(){
+
+
+
+    public Carte[] initCartes(){
         Carte[] cartes;
         try {
             ObjectMapper om = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
@@ -26,7 +28,7 @@ public class Lotto {
             throw new RuntimeException(e);
         }
 
-
+        return cartes;
 
     }
 
