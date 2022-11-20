@@ -24,7 +24,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 public class Lotto {
-    private String filename = "Cartes.json";
+    private String filename = "carte_essai.json";
     public HashMap<String, Carte> cartes = null ;
     private JsonObject messageJson =null;
 
