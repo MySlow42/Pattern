@@ -27,6 +27,7 @@ public class Console {
         System.out.println("Losrque vous voulez contrôler un CARTON taper \"v3\"");
         System.out.println("____________________________________________________________________");
         System.out.println("Bonne partie de Lotto!!                              Vous jouez la partie n°: " + compteur);
+
         Scanner command = new Scanner(System.in);
         System.out.println("Entrer le numéro tiré, puis pressez enter");
 
