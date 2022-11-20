@@ -10,7 +10,5 @@ public class  MainApp {
 
         //check
         //Lotto.addLignes();
-        System.out.println("hello");
-        System.out.println();
     }
 }
